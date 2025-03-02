@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Roboto; 
+    font-family: Roboto, sans-serif; 
     margin: 0;
     padding: 0;
 
@@ -9,6 +9,169 @@
 a {
     text-decoration: none;
     color: #000;
-    
+
 
 }
+
+img {
+    object-fit: cover;
+
+}
+
+body {
+    background-color: #f1f1f1;
+
+
+}
+
+.links {
+    gap: 20px;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    padding: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.login {
+    padding: 8px 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login:hover {
+    padding: 8px 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color:#e8e8e8;
+}
+
+.signup {
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.signup:hover {
+    all: unset;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+header {
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.header-left {
+    width: 600px;
+    
+}
+
+.header-left p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgb(36, 36, 36);
+}
+
+header img {
+    width: 400px;
+    transform: rotate(10deg);
+}
+
+
+.header-left button {
+    all: unset;
+    border-radius: 100px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 12px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.header-left button:hover {
+    all: unset;
+    border-radius: 100px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 12px;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    cursor: pointer;
+}
+
+h2.separator {
+    padding: 0 80px;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sell-nft {
+    padding: 0 80px;
+    margin: 10px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sell-nft .item {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.sell-nft .item:hover {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.sell-nft .item .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sell-nft .item .header h5 {
+    font-size: 17px;
+}
+
+.sell-nft .item p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
